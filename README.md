@@ -1,5 +1,7 @@
 # uchile_ci (WIP)
 
+![Greet Everyone](https://github.com/uchile-robotics/uchile_ci/workflows/Greet%20Everyone/badge.svg?branch=master&event=push)
+
 Continuous Integration scripts for uchile-robotics repositories.
 
 ## Overview

@@ -2,7 +2,7 @@
 
 ## TODO
 
-- should we rely on `GITHUB_WORKSPACE` env variable?.
+- should we rely on `GITHUB_WORKSPACE` env variable?
 
 ## YAML: yamllint
 
@@ -16,13 +16,9 @@
 - File extensions: `xml`, `html`, `launch`, `urdf`,  `xacro`, `sdf`, `aiml`.
 - GitHub Action: https://github.com/marketplace/actions/xml-lint
 
+**Limitations**: xmllint does not correctly parse all ROS files. For instance, nodelet plugins XML contain non-standard "<" and ">" characters from C++ code templates. This might be solved by using a ROS specific XML schema: [See the discussion](https://github.com/ros/ros_comm/issues/455).
 
-- See Also:
-  - ROS launch schema
-	- issue: https://github.com/ros/ros_comm/issues/455
-	- gist: https://gist.github.com/nalt/dfa2abc9d2e3ae4feb82ca5608090387
-
-### Example
+**Example**
 ```bash
 # build
 cd <uchile_ci>

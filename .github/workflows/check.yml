@@ -17,3 +17,5 @@ jobs:
           file_or_dir: .
           format: colored
           strict: false
+      - name: xml-lint
+        uses: ./lint/xml/action.yml

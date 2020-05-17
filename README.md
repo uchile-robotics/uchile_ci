@@ -1,6 +1,6 @@
 # uchile_ci (WIP)
 
-![Greet Everyone](https://github.com/uchile-robotics/uchile_ci/workflows/Greet%20Everyone/badge.svg?branch=master&event=push)
+![Check](https://github.com/uchile-robotics/uchile_ci/workflows/Check/badge.svg?branch=master&event=push)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Continuous Integration scripts for uchile-robotics repositories.

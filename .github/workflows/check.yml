@@ -18,4 +18,4 @@ jobs:
           format: colored
           strict: false
       - name: xml-lint
-        uses: ./lint/xml/action.yml
+        uses: ./lint/xml/

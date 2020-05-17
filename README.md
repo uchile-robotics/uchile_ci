@@ -2,6 +2,7 @@
 
 ![Greet Everyone](https://github.com/uchile-robotics/uchile_ci/workflows/Greet%20Everyone/badge.svg?branch=master&event=push)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Continuous Integration scripts for uchile-robotics repositories.
 
 ## Overview
@@ -21,6 +22,7 @@ https://help.github.com/en/actions/configuring-and-managing-workflows/configurin
 
 - matrix for melodic/18.04 + kinetic/16.04
 - Docker for ROS?
+- Scripts on this repo should be also tested!.
 
 ## Jobs
 

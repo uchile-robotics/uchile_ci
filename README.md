@@ -35,8 +35,10 @@ Languages:
 
 Checks:
 - Small Checks
-  - Lint
-  - see uchile system hooks
+  - Filenames
+  - Merge conflict characters
+  - File Size
+  - Lint For Each Language
 - Package Build and Test
 - Project Build and Test
 - Platform Specific tests: Bender/Maqui

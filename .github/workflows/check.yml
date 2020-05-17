@@ -1,0 +1,19 @@
+name: Check
+
+# This workflow is triggered on pushes to any branch.
+on: [push]
+
+# Jobs run in parallel by default.
+jobs:
+  small-checks:
+    name: Small Checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: yaml-lint
+        uses: ibiqlik/action-yamllint@v1
+        with:
+          config_file: lint/yamllint.yml
+          file_or_dir: .
+          format: colored
+          strict: false

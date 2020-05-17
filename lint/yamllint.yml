@@ -4,7 +4,7 @@ rules:
   # 80 chars should be enough, but don't fail if a line is longer
   line-length:
     max: 80
-    level: warning
+    level: error
 
   # don't bother me with these rules
   document-start: disable

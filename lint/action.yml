@@ -1,3 +1,4 @@
+---
 name: 'UChile Lint'
 description: 'Lint source code for uchile-robotics repositories'
 runs:

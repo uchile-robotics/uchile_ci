@@ -4,4 +4,5 @@ RUN apt-get update && \
     apt-get autoremove -y && \
     apt-get clean
 COPY entrypoint.sh /entrypoint.sh
+COPY xml.sh /lint/xml.sh
 ENTRYPOINT ["/entrypoint.sh"]

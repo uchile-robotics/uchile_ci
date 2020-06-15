@@ -14,7 +14,6 @@
 
 - Checker: [xmllint](http://xmlsoft.org/xmllint.html).
 - File extensions: `xml`, `html`, `launch`, `urdf`,  `xacro`, `sdf`, `aiml`.
-- GitHub Action: https://github.com/marketplace/actions/xml-lint
 
 **Limitations**: xmllint does not correctly parse all ROS files. For instance, nodelet plugins XML contain non-standard "<" and ">" characters from C++ code templates. This might be solved by using a ROS specific XML schema: [See the discussion](https://github.com/ros/ros_comm/issues/455).
 

@@ -1,5 +1,0 @@
-name: 'XML Lint'
-description: 'Validate XML syntax'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'

@@ -8,6 +8,9 @@ FAILED=false
 
 # XML Lint
 if ! sh /lint/xml.sh; then
+   export FAILED=true
+fi
+if ! sh /lint/yaml.sh; then
     export FAILED=true
 fi
 

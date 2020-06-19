@@ -7,6 +7,9 @@
 FAILED=false
 
 # XML Lint
+if ! sh /lint/file_size.sh; then
+    export FAILED=true
+fi
 if ! sh /lint/merge_conflict.sh; then
     export FAILED=true
 fi

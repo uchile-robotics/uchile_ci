@@ -4,6 +4,7 @@ RUN apt-get update && \
     apt-get autoremove -y && \
     apt-get clean
 COPY entrypoint.sh /entrypoint.sh
+COPY merge_conflict.sh /lint/merge_conflict.sh
 COPY cpp.sh /lint/cpp.sh
 COPY python.sh /lint/python.sh
 COPY xml.sh /lint/xml.sh

@@ -2,12 +2,37 @@
 extends: default
 
 rules:
-  # 80 chars should be enough, but don't fail if a line is longer
-  line-length:
-    max: 80
+  braces:
     level: warning
-
-  # don't bother me with these rules
+  brackets:
+    level: warning
+  colons:
+    level: warning
+  commas:
+    level: warning
+  comments:
+    level: warning
+  comments-indentation:
+    level: warning
+  document-end: disable
   document-start: disable
-  indentation: disable
+  empty-lines:
+    level: warning
+  empty-values:
+    level: error
+  hyphens:
+    level: warning
+  indentation:
+    level: warning
+  key-duplicates:
+    level: warning
+  key-ordering: disable
+  line-length:
+    max: 160
+    level: warning
+  new-line-at-end-of-file: disable
+  new-lines:
+    level: warning
+  trailing-spaces:
+    level: warning
   truthy: disable

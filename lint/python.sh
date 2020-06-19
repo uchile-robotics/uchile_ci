@@ -41,4 +41,4 @@ OPTIONS=$OPTIONS",E501"
 # - recommended: 79 (in order to view files side by side)
 OPTIONS=$OPTIONS" --max-line-length=120"
 
-find "${DIR}" -type f -name "*.py" 
+find "${DIR}" -type f -not -path '*/\.git/*' -name "*.py"

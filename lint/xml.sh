@@ -13,4 +13,4 @@ find "${DIR}" -type f \( \
      -name "*.xacro"  -o \
      -name "*.sdf"    -o \
      -name "*.aiml"   \
-     \) -exec xmllint --noout {} +
+     \) -not -path '*/\.git/*' -exec xmllint --noout {} +

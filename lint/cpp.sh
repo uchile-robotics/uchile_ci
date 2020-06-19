@@ -9,4 +9,4 @@ find "${DIR}" -type f \( \
      -name "*.cpp"  -o \
      -name "*.h"    -o \
      -name "*.hpp"     \
-     \) -exec cppcheck --error-exitcode=1 --enable=warning --language=c++  --quiet --verbose {} +
+     \) -not -path '*/\.git/*' -exec cppcheck --error-exitcode=1 --enable=warning --language=c++  --quiet --verbose {} +

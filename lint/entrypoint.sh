@@ -7,13 +7,18 @@
 FAILED=false
 
 # XML Lint
+if ! sh /lint/cpp.sh; then
+    export FAILED=true
+fi
+if ! sh /lint/python.sh; then
+    export FAILED=true
+fi
 if ! sh /lint/xml.sh; then
    export FAILED=true
 fi
 if ! sh /lint/yaml.sh; then
     export FAILED=true
 fi
-
 
 # ================================================
 # Run Scripts
